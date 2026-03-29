@@ -21,7 +21,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### Tableau: Analytics & Reporting (Data Analytics)
+### 📊 Tableau: Analytics & Reporting (Data Analytics)
 
 ####Objective
 
