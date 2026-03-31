@@ -77,7 +77,7 @@ CREATE TABLE Bronze.erp_loc_a101 --Bronze -> schema, erp -> source system, _loc_
 IF OBJECT_ID('Bronze.erp_px_cat_g1v2','U') IS NOT NULL
 	DROP TABLE Bronze.erp_px_cat_g1v2;
 
-CREATE TABLE Bronze.erp_px_cat_g1v2 --Bronze -> schema, erp -> source system, _px_cate_g1v2 -> entity
+CREATE TABLE Bronze.erp_px_cat_g1v2 --Bronze -> schema, erp -> source system, _px_cat_g1v2 -> entity
 (
 	id NVARCHAR(50),
 	cat NVARCHAR(50),
