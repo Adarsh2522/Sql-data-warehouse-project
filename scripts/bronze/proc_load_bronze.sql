@@ -134,14 +134,14 @@ BEGIN
 
 		SET @start_time = GETDATE();
 
-		PRINT'>>> Truncating Table: Bronze.erp_px_cate_g1v2 <<<';
+		PRINT'>>> Truncating Table: Bronze.erp_px_cat_g1v2 <<<';
 
-		TRUNCATE TABLE Bronze.erp_px_cate_g1v2;
+		TRUNCATE TABLE Bronze.erp_px_cat_g1v2;
 
-		PRINT'>>> Inserting Date Into Table: Bronze.erp_px_cate_g1v2 <<<';
+		PRINT'>>> Inserting Date Into Table: Bronze.erp_px_cat_g1v2 <<<';
 
-		BULK INSERT Bronze.erp_px_cate_g1v2
-		FROM 'C:\Data Analytics\SQL and SSMS\dbc9660c89a3480fa5eb9bae464d6c07\sql-data-warehouse-project\datasets\source_erp\px_cate_g1v2.csv'
+		BULK INSERT Bronze.erp_px_cat_g1v2
+		FROM 'C:\Data Analytics\SQL and SSMS\dbc9660c89a3480fa5eb9bae464d6c07\sql-data-warehouse-project\datasets\source_erp\px_cat_g1v2.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
