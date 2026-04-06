@@ -10,23 +10,16 @@ The Gold Layer is the business-level data representation, structured to support 
 
 
 
-| Column Name       | Data Type      | Description
-|------------|----------|-------------|
-|customer_key    |   INT   |         Surrogate key uniquely identifying each customer record in the dimension table.|
-|
-|customer_id     |   INT     |        Unique numerical identifier assigned to each customer.|
-|------------|----------|-------------|
-|customer_number  |  NVARCHAR(50)  |  Alphanumeric identifier representing the customer, used for tracking and referencing.|
-
-|first_name     |    NVARCHAR(50)  |  The customer's first name, as recorded in the system.|
-
-|last_name     |     NVARCHAR(50)  |   The customer's last name or family name.|
-
-|country       |     NVARCHAR(50)  |  The country of residence for the customer (e.g., 'Australia').|
-
-|marital_status |    NVARCHAR(50)  |  The marital status of the customer (e.g., 'Married', 'Single').|
-
-|gender        |     NVARCHAR(50)  |  The gender of the customer (e.g., 'Male', 'Female', 'N/A').|
+| Column Name    | Data Type          | Description
+|----------------|-------------------|------------------------------------------------------------------------------------------|
+|customer_key    |   INT             |         Surrogate key uniquely identifying each customer record in the dimension table.  |
+|customer_id     |   INT             |        Unique numerical identifier assigned to each customer.                            |
+|customer_number |  NVARCHAR(50)     |  Alphanumeric identifier representing the customer, used for tracking and referencing.   |
+|first_name      |    NVARCHAR(50)   |  The customer's first name, as recorded in the system.                                   |
+|last_name       |     NVARCHAR(50)  |   The customer's last name or family name.                                               |
+|country         |     NVARCHAR(50)  |  The country of residence for the customer (e.g., 'Australia').                          | 
+|marital_status  |    NVARCHAR(50)   |  The marital status of the customer (e.g., 'Married', 'Single').                         |
+|gender          |     NVARCHAR(50)  |  The gender of the customer (e.g., 'Male', 'Female', 'N/A').                             |
 
 
 
