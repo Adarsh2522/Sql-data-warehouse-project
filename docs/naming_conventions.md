@@ -25,6 +25,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 - All names must start with the source system name, and table names must match their original names without renaming. 
 
 - `<sourcesystem>_<entity>`
+  
         - `<sourcesystem>`: Name of the source system (e.g., `crm`, `erp`).
   
         -`<entity>`: Exact table name from the source system.
@@ -36,6 +37,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 - All names must start with the source system name, and table names must match their original names without renaming. 
 
 - `<sourcesystem>_<entity>`
+  
         -`<sourcesystem>`: Name of the source system (e.g., `crm`, `erp`).
   
         -`<entity>`: Exact table name from the source system.
