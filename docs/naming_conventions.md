@@ -14,7 +14,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 4. Stored Procedure
 
 # General Principles
-- Naming Conventions: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
+- Naming Conventions: Use snake_case, with lowercase letters and underscores (`_`) to separate words. 
 - Language: Use English for all names.
 - Avoid Reserved Words: Do not use SQL reserved words as object names.
 
@@ -26,8 +26,10 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 - `<sourcesystem>_<entity>`
         - `<sourcesystem>`: Name of the source system (e.g., `crm`, `erp`).
+  
         -`<entity>`: Exact table name from the source system.
-        -Example: `crm_customer_info` → Customer information from the CRM system. 
+  
+        -Example: `crm_customer_info` → Customer information from the CRM system.  
 
 # Silver Rules 
 
@@ -35,8 +37,11 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 - `<sourcesystem>_<entity>`
         -`<sourcesystem>`: Name of the source system (e.g., `crm`, `erp`).
+  
         -`<entity>`: Exact table name from the source system.
+  
         -Example: `crm_customer_info` → Customer information from the CRM system.
+  
 
 
 
